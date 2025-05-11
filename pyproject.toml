@@ -1,0 +1,19 @@
+[project]
+name = "chainlit1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.13",
+]
+
+[project.scripts]
+chainlit1 = "chainlit1:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
