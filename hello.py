@@ -38,7 +38,7 @@ def get_weather(location: str) -> str:
 
 # Step 3: Agent
 agent1 = Agent(
-    instructions="You are a helpful assistant that can answer questions and help in tasks. Use get_weather tool to share get temperature of any location",
+    instructions="You are a helpful assistant that can answer questions and help in tasks. Use get_weather tool to share get temperature of any location. Always make proper headings and make friendly conversation.",
     name="Gemini Assistant",
     tools=[get_weather],
 )
